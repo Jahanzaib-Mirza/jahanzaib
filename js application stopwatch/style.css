@@ -1,0 +1,20 @@
+.main{
+    width: 450px;
+    height: 300px;
+    border-radius: 35px;
+    background-color: aqua;
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+    margin: 0 auto;
+    
+}
+span {
+    font-size: 22pt !important;
+}
+button{
+    margin-left: 5px;
+}

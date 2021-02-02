@@ -1,0 +1,117 @@
+/* .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container {
+    float: right;
+  }
+  .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+   */
+   
+   *{
+    padding: 0px;
+    margin: 0px;
+}
+   .input{
+       background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/1200px-Vector_search_icon.svg.png) ;
+       background-repeat: no-repeat;
+       background-size:30px;
+       background-position: top right;
+       width: 400px;
+   }
+   .shead{
+       font-family: merriweather;
+       text-transform: uppercase;
+   }
+   .navbar{
+     overflow: hidden;
+     position: fixed;
+     top: 0;
+     z-index: 100;
+     width: 100%;
+   }
+   .body{
+     height: 1500px;
+   }
+    /* .shead span {
+    display: inline-block;
+    position: relative;}
+   .shead span:before,
+   .shead span:after {
+     content: "";
+     position: absolute;
+     height: 25px;
+     border-bottom: 1px solid black;
+     /* border-top: 1px solid black; */
+     /* top: 0;
+     width: 200px;
+   }
+   .shead span:before {
+     right: 100%;
+     margin-right: 15px;
+   }
+   .shead span:after {
+     left: 100%;
+     margin-left: 15px;
+   }  */ 
+   .icenter{
+     display: flex;
+     flex-direction:column;
+   }
+
+
+   .body{
+       background-color: rgb(246, 246, 246);
+   }
+   /* @media only screen and (min-width: 320px)
+   {
+       body{
+           padding:0px !important;
+           margin:0px !important;
+       }
+   }@media only screen and (min-width: 420px)
+   {
+       body{
+           padding:0px !important;
+           margin:0px !important;
+       }
+   } */
+   /* @media only screen and (min-width:500px;){
+
+    .shead span {
+      display: inline-block;
+      position: relative;}
+     .shead span:before,
+     .shead span:after {
+       content: "";
+       position: absolute;
+       height: 25px;
+       border-bottom: 1px solid black;
+       /* border-top: 1px solid black; */
+       /* top: 0;
+       width: 20px;
+     }
+     .shead span:before {
+       right: 25px;
+       margin-right:0px;
+     }
+     .shead span:after {
+       left:25px;
+       margin-left: 0px;
+     }
+   } */ 

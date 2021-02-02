@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data Form</title>
+</head>
+
+<body>
+    <div class="dataForm">
+        <h1>Employee Data Form</h1>
+
+        <form>
+            <fieldset>
+                <legend>PERSONAL INFORMATION</legend>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name">
+
+                <label for="lastName">last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="3" cols="50" placeholder="Enter address..."></textarea>
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="City">
+
+
+                <label for="homePhone">Home Phone</label>
+                <input type="text" id="homePhone" name="homePhone" placeholder="Home Phone">
+
+
+                <label for="cellPhone">Cell Phone</label>
+                <input type="text" id="cellPhone" name="cellPhone" placeholder="Cell Phone">
+
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </fieldset>
+            <fieldset>
+                <legend>EDUCATION</legend>
+                <div class="school">
+                    <label for="schoolName">School Name</label>
+                    <input type="text" id="schoolName" name="schoolName" placeholder="School Name">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="Location">
+                    <label for="degree">Degree Recieved</label>
+                    <input type="text" id="degree" name="degreeRecieved" placeholder="Degree Recieved">
+                    <label for="major">Major</label>
+                    <input type="text" id="major" name="major" placeholder="Major">
+                </div>
+                <div class="college">
+                    <label for="collegeName">College Name</label>
+                    <input type="text" id="collegeName" name="collegeName" placeholder="College Name">
+                    <label for="locationCollege">Location</label>
+                    <input type="text" id="locationCollege" name="locationCollege" placeholder="Location">
+                    <label for="degreeCollege">Degree Recieved</label>
+                    <input type="text" id="degreeCollege" name="degreeRecievedCpllege" placeholder="Degree Recieved">
+                    <label for="majorCollege">Major</label>
+                    <input type="text" id="majorCollege" name="majorCollege" placeholder="Major">
+                    <br>
+                    <label for="others">Others</label>
+                    <textarea id="others" placeholder="Other Training,certificate or licenses held..." rows="3"
+                        cols="30"></textarea>
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>PREVIOUS EMPLOYMENT</legend>
+                <label for="employer">Employer</label>
+                <input type="text" name="employer" id="employer" placeholder="Employer">
+                <label for="workPhone">Work Phone</label>
+                <input type="number" name="workPhone" id="workPhone" placeholder="Work Phone">
+                <label for="salary">Salary</label>
+                <input type="number" name="salary" id="salary" placeholder="Salary(In Rupees)">
+                <div class="datesEmployed">
+                    <h2>Dates Employed</h2>
+                    <label for="joinDate">Joining Date</label>
+                    <input type="date" name="joinDate" id="joinDate">
+
+                    <label for="leave Date">leaving Date</label>
+                    <input type="date" name="leaveDate" id="leaveDate">
+                </div>
+                <label for="workAddress">Address</label>
+                <textarea id="workAddress" placeholder="Enter Address (city,province included)..." rows="3"
+                    cols="50"></textarea>
+                <label for="supervisor">Supervisor</label>
+                <input id="supervisor" type="text" name="supervisor" placeholder="Name And Title">
+                <label for="duties">Duties Performed</label>
+                <input id="duties" type="text" name="duties Performed" placeholder="Duties Performed">
+                <br>
+                <label for="reason">Reason For Leaving</label>
+                <textarea id="reason" placeholder="Reason For Leaving..." rows="3" cols="50"></textarea>
+                <div>May we contact them?
+                    <label for="yes">YES</label>
+                    <input type="radio" value="yes" name="permission">
+                    <label for="no">NO</label>
+                    <input type="radio" value="no" name="permission">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>REFERENCES</legend>
+                <label for="refName">Name</label>
+                <input id="refName" type="text" name="reference name" placeholder="Name">
+                
+                <label for="refTitle">Title</label>
+                <input id="refTitle" type="text" name="reference title" placeholder="Title">
+
+                
+                <label for="company">Company</label>
+                <input id="company" type="text" name="company name" placeholder="Company">
+                
+                <label for="refPhone">Phone</label>
+                <input id="refPhone" type="" name="reference name" placeholder="Phone">
+
+            </fieldset>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

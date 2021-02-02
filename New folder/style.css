@@ -1,0 +1,54 @@
+
+
+form{
+    padding:0px;
+    height: 100vh;
+    margin: 0 auto;
+    width: 70%;
+}
+input,textarea{
+    padding: 5px;
+    margin: 5px 20px;
+
+    border: 1px solid black;
+}
+
+textarea{
+    margin-top: 20px;
+}
+
+.dataForm{
+    margin: auto;
+}
+
+
+legend{
+    font-family: 'Kufam', cursive;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.leftside, .rightside{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftside{
+    float: left;
+}
+
+
+.rightside input , .rightside textarea{
+    width: 60%;
+    height: 20px;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 16px;
+    height: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 11px;
+}
+

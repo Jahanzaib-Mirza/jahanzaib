@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dataForm">
+        <h1>Employee Data Form</h1>
+
+        <form>
+            <fieldset class="field1">
+                <legend>PERSONAL INFORMATION</legend>
+
+
+
+                <div class="leftside">
+                    <label for="firstName" class="heading1">First Name</label>
+                    <label for="lastName" class="heading1">Last Name</label>
+                    <label for="address">Address</label>
+                    <label for="city">City</label>
+                    <label for="homePhone" class="homephone">Home-Phone</label>
+                    <label for="cellPhone">Cell Phone</label>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="rightside">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                    <textarea id="address" name="address" rows="3" cols="50" placeholder="Enter address..."></textarea>
+                    <input type="text" id="city" name="city" placeholder="City">
+                    <input type="text" id="homePhone" name="homePhone" placeholder="Home Phone">
+                    <input type="text" id="cellPhone" name="cellPhone" placeholder="Cell Phone">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Guardian</legend>
+                <label for="gNAme"></label>
+                <input type="text " id="gNAme" name="gNAme" placeholder="Full Name">
+                <label>Gender</label>
+                <label for="guardMale">Male</label>
+                <input type="radio" id="guardMale" value="male" name="guardGender">
+                <label for="guardFemale">Male</label>
+                <input type="radio" id="guardFemale" value="female" name="guardGender">
+                <label for="guardAge">Age</label>
+                <input 
+
+            </fieldset>
+            <fieldset class="field2">
+                <legend>EDUCATION</legend>
+                <div class="school">
+                    <label for="schoolName">School Name</label>
+                    <input type="text" id="schoolName" name="schoolName" placeholder="School Name">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="Location">
+                    <label for="degree">Degree Recieved</label>
+                    <input type="text" id="degree" name="degreeRecieved" placeholder="Degree Recieved">
+                    <label for="major">Major</label>
+                    <input type="text" id="major" name="major" placeholder="Major">
+                </div>
+                <div class="college">
+                    <label for="collegeName">College Name</label>
+                    <input type="text" id="collegeName" name="collegeName" placeholder="College Name">
+                    <label for="locationCollege">Location</label>
+                    <input type="text" id="locationCollege" name="locationCollege" placeholder="Location">
+                    <label for="degreeCollege">Degree Recieved</label>
+                    <input type="text" id="degreeCollege" name="degreeRecievedCpllege" placeholder="Degree Recieved">
+                    <label for="majorCollege">Major</label>
+                    <input type="text" id="majorCollege" name="majorCollege" placeholder="Major">
+                    <br>
+                    <label for="others">Others</label>
+                    <textarea id="others" placeholder="Other Training,certificate or licenses held..." rows="3"
+                        cols="30"></textarea>
+                </div>
+            </fieldset>
+
+
+            <fieldset class="field3">
+                <legend>PREVIOUS EMPLOYMENT</legend>
+                <label for="employer">Employer</label>
+                <input type="text" name="employer" id="employer" placeholder="Employer">
+                <label for="workPhone">Work Phone</label>
+                <input type="number" name="workPhone" id="workPhone" placeholder="Work Phone">
+                <label for="salary">Salary</label>
+                <input type="number" name="salary" id="salary" placeholder="Salary(In Rupees)">
+                <div class="datesEmployed">
+                    <h2>Dates Employed</h2>
+                    <label for="joinDate">Joining Date</label>
+                    <input type="date" name="joinDate" id="joinDate">
+
+                    <label for="leave Date">leaving Date</label>
+                    <input type="date" name="leaveDate" id="leaveDate">
+                </div>
+                <label for="workAddress">Address</label>
+                <textarea id="workAddress" placeholder="Enter Address (city,province included)..." rows="3"
+                    cols="50"></textarea>
+                <label for="supervisor">Supervisor</label>
+                <input id="supervisor" type="text" name="supervisor" placeholder="Name And Title">
+                <label for="duties">Duties Performed</label>
+                <input id="duties" type="text" name="duties Performed" placeholder="Duties Performed">
+                <br>
+                <label for="reason">Reason For Leaving</label>
+                <textarea id="reason" placeholder="Reason For Leaving..." rows="3" cols="50"></textarea>
+                <div>May we contact them?
+                    <label for="yes">YES</label>
+                    <input type="radio" value="yes" name="permission">
+                    <label for="no">NO</label>
+                    <input type="radio" value="no" name="permission">
+                </div>
+            </fieldset>
+
+            <fieldset class="field4">
+                <legend>REFERENCES</legend>
+                <label for="refName">Name</label>
+                <input id="refName" type="text" name="reference name" placeholder="Name">
+
+                <label for="refTitle">Title</label>
+                <input id="refTitle" type="text" name="reference title" placeholder="Title">
+
+
+                <label for="company">Company</label>
+                <input id="company" type="text" name="company name" placeholder="Company">
+
+                <label for="refPhone">Phone</label>
+                <input id="refPhone" type="" name="reference name" placeholder="Phone">
+
+            </fieldset>
+
+
+        </form>
+    </div>
+ 
+
+    <!-- <div>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+        
+          <input type="submit" value="Submit">
+      </div>
+
+</body>
+
+</html>

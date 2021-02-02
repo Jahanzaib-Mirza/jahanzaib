@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box !important;
+    
+}
+body{
+    /* background-color:#9b59b6; */
+    background-color:#42cbf5;
+    
+}
+label{
+    /* color:white; */
+    font-weight: bolder;
+    font-family:  Times;
+}
+legend{
+    font-weight: bolder;
+    /* color: white; */
+    font-family: 'Kufam', cursive;
+    margin: 10px;
+
+}
+/* .button{
+    align-items: center !important;
+    margin: 0 auto !important; 
+}*/
+form{
+    background-color : rgb(246,246,246);
+    padding:10px;
+    border-radius: 10px;
+
+}
+    /* .container{
+        margin-left: 300px !important;
+        margin-right: 300px !important;
+        box-sizing: border-box !important;  
+    }
+    */
+/* input
+{
+    padding:10px;
+    border: 1px solid black;
+    display: inline;
+    border-radius: 5px;
+}
+] */

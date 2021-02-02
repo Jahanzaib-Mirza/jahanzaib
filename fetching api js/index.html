@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+
+<body>
+  <div id="div1">
+    
+
+
+  </div>
+  <script>
+    fetch("https://api.covid19api.com/summary")
+    .then((apiData) =>{
+      // console.log(apiData);
+      return apiData.json();
+    })
+    .then( (actualData) =>{
+      // console.log(actualData);
+      console.log(actualData.Countries[128]);
+      const myData=actualData.Countries[128].Country;
+      console.log(myData);
+      document.getElementById("div1").innerHTML=`the name of my country is ${myData}`;
+    })
+    .catch ((error)=>{
+      console.log(error)
+    });
+
+  </script>
+
+</body>
+
+</html>

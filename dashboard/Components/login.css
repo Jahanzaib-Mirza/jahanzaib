@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: sans-serif; */
+}
+body {
+    background-color :rgba(232 ,232 ,232);
+}
+.main{
+    height: 100% !important;
+    width: 100% !important;
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img_lights.jpg); */
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+height: 480px;
+width: 380px;
+position: relative;
+margin: 6% auto;
+background: #fff;
+padding:5px;
+overflow: hidden;
+}
+.myBtnBox{
+    width: 220px;
+    padding:5px;
+    height: 25px;
+    margin:35px auto;
+    position: relative;
+    border-radius: 30px !important;
+    box-shadow: 0 0 20px 9px #ff61241f !important;
+}
+.myBtn{
+    padding :10px 30px ;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    }
+ 
+ #btn{ 
+    top: 0;
+    left: 0;
+    position: absolute; 
+    width: 120px;
+    height:100%;
+    background: linear-gradient(90deg, #0277bd 0%,rgba(22, 4, 104, 0.507) 100%);
+    border-radius: 30px;
+    transition:0.5s;
+}
+.socialIcons{
+    margin: 30px auto;
+    text-align: center;
+}
+.socialIcons img{
+    width: 30px;
+    margin: 0px 12px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.login{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition:0.5s;
+
+}
+.input-field{
+    width: 100%;
+    padding:10px 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(90deg, #0277bd 0%,rgba(22, 4, 104, 0.507) 100%);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+
+}
+.chk-box{
+    margin: 30px 10px 30px 0;
+
+}
+span{
+    color:#777;
+    font-size: 12px;
+    bottom: 68px;
+    position:absolute;
+}
+#login{
+    left: 50px;
+
+}
+#register{
+    left: 450px;
+}
+.page-wrapper{
+    height: 100 rvh;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+    <script>
+        // let add=document.getElementById("increment").innerHTML;
+        // let remove=document.getElementById("decrement").innerHTML;
+        // let int=document.getElementById("number").innerHTML;
+        // let integer=0;
+        function increase(){
+            //  integer +=1;
+            //  int.innerHTML = integer;
+            var foo=document.getElementById("number").innerHTML;
+            foo++;
+            document.getElementById("number").innerHTML=foo;
+
+        }
+        function decrease(){
+        //      integer -=1;
+        //      int.innerHTML = integer;
+        var foo=document.getElementById("number").innerHTML;
+        foo--;
+        document.getElementById("number").innerHTML=foo;
+
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        Increment/Decrement Counter
+    </h1>
+    <div class="container">
+        
+
+        <div id="number">0</div>
+           <button onclick="increase()" id="increment">+</button>
+           <button onclick="decrease()" id="decrement">-</button>
+        
+
+    </div>
+
+</body>
+
+</html>

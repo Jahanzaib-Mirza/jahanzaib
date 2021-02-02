@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+
+        <header id="screen">
+            <input id="output" type="text" class="inputtext">
+            <input id="result" type="text" class="inputtext">
+        </header>
+
+
+        <table>
+            <tr id="r1">
+                <td colspan="2" onclick="clearResult('')">AC</td>
+                <td colspan="2" onclick=" getresult() ">=</td>
+
+            </tr>
+            <tr id="r2">
+                <td onclick="getNum('-')">-</td>
+                <td onclick="getNum('*')">*</td>
+                <td onclick="getNum('+')">+</td>
+                <td onclick="getNum('/')">/</td>
+            </tr>
+            <tr id="r3">
+                <td onclick="getNum('1')">1</td>
+                <td onclick="getNum('2')">2</td>
+                <td onclick="getNum('3')">3</td>
+                <td onclick="getNum('4')">4</td>
+            </tr>
+            <tr id="r4">
+                <td onclick="getNum('5')">5</td>
+                <td onclick="getNum('6')">6</td>
+                <td onclick="getNum('7')">7</td>
+                <td onclick="getNum('8')">8</td>
+            </tr>
+            <tr id="r5">
+                <td onclick="getNum('9')">9</td>
+                <td onclick="getNum('0')">0</td>
+                <td onclick="getNum('00')">00</td>
+                <td onclick="getNum('.')">.</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

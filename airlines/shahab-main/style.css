@@ -1,0 +1,30 @@
+#nav{
+    font-family: merriweather;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-family: merriweather;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+h2{
+    font-family: merriweather;
+    text-align: center;
+    text-transform: uppercase;
+}
+a{
+    margin-left: 10px;
+    /* margin-bottom: px; */
+}
+.form{
+    padding: 20px;
+    height: 500px;
+}
+.img{
+    border-radius: 10px;
+}

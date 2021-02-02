@@ -1,0 +1,19 @@
+<img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/onlinesadqah.png" alt="">
+                online Sadqah</h4>
+            
+<img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/welfare.png" alt="">
+                <h4 class="h4">welfare</h4>
+
+<img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/medical.png" alt="">
+                <h4 class="h4">medical</h4>
+
+<img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/Dastarkhwan.png" alt="">
+                <h4 class="h4">dastarkhwan</h4>
+
+<img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/ROPLANT.png" alt="">
+               <h4 class="h4">ro plant</h4>
+        
+  
+<img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/education.png" alt="">
+                <h4 class="h4">education</h>              
+           
